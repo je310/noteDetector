@@ -1,2 +1,2 @@
-== Tone detector ==
+## Tone detector ##
 The purpose of this project is to provide a simple way of allowing a robot to know which key on an insturment is played. A contact microphone is used to ensure imunity to other sounds. This program will simply output a number over the USB interface every 0.1 seconds that corresponds to the MIDI note number. If no note is above the threashold, it will output 0. For simplicity only the 4th octave major notes are detected. 
